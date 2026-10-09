@@ -192,9 +192,9 @@ p {
 .hero__media {
   position: absolute;
   z-index: 0;
-  top: -93px;
-  right: 4px;
-  width: 590px;
+  top: -85px;
+  right: 14px;
+  width: 526px;
 }
 
 .hero__glow {
@@ -202,15 +202,13 @@ p {
   z-index: -1;
   inset: 10% -10% 0 -10%;
   background:
-    radial-gradient(closest-side at 40% 70%, rgba(25, 181, 241, 0.35), transparent),
-    radial-gradient(closest-side at 65% 55%, rgba(202, 106, 235, 0.45), transparent);
+    radial-gradient(closest-side at 40% 70%, rgba(25, 181, 241, 0.4), transparent),
+    radial-gradient(closest-side at 65% 55%, rgba(202, 106, 235, 0.6), transparent);
   filter: blur(40px);
 }
 
 .hero__image {
   width: 100%;
-  -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 12%, #000 90%, transparent 100%);
-  mask-image: linear-gradient(90deg, transparent 0, #000 12%, #000 90%, transparent 100%);
 }
 
 /* Features */
