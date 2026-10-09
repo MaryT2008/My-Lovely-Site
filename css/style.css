@@ -224,12 +224,12 @@ p {
 }
 
 .feature__icon {
-  width: 52px;
-  height: 52px;
+  width: 70px;
+  height: 70px;
 }
 
 .feature__title {
-  margin-top: 40px;
+  margin-top: 30px;
   font-size: 18px;
   font-weight: 500;
   line-height: 1;
